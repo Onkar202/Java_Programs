@@ -1,0 +1,17 @@
+public class palindromic_with_number {
+    public static void main(String[] args) {
+        int n = 6;
+        for(int i=0;i<n;i++){
+            for(int j=n-i;j>0;j--){
+                System.out.print(" ");
+            }
+            for(int j=i;j>0;j--){
+                System.out.print(j);
+            }
+            for(int j=2;j<=i;j++){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+}
